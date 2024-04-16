@@ -1,24 +1,24 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native'
-import interfaz2 from './interfaz2';
-import App from '../App';
+import Interfaz2 from './interfaz2';
+import Interfaz1 from './Interfaz1';
+import App from '../App';  
 
 const Stack = createStackNavigator();
 
 
-const MineStack = () => {
+export const MineStack = () => {
     return(
     <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name="App" component={App} />
-        </Stack.Navigator>
-
-        <Stack.Navigator>
-            <Stack.Screen name="interfaz2" component={interfaz2} />
+            <Stack.Screen name="Interfaz1" component={Interfaz1} />
         </Stack.Navigator>
     </NavigationContainer>
   );
 }
 
 export default MineStack;
+
+
+

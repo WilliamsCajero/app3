@@ -23,7 +23,7 @@ export default function Interfaz1({ navigation }) {
         style={styles.textInput}
         />
 
-        <Buttons label={'Ingresar'} onPress={() => navigation.navigate('Interfaz2')}></Buttons>
+        <Buttons texto={'Ingresar'} onPress={() => navigation.navigate('Interfaz2')}></Buttons>
 
         <Image style={styles.imagen} source={{uri: 'https://c.tenor.com/npi4NfiGKBMAAAAM/hello.gif'}} />
 

@@ -1,10 +1,10 @@
 import { StyleSheet, Text, TouchableOpacity, Image, Pressable } from 'react-native'
 import React from 'react'
 
-export default function Buttons({ label, onPress}) {
+export default function Buttons ({ label, onPress}) {
   return (
     <Pressable style={styles.button} onPress={onPress}>
-      <Text style={styles.textoBoton}>{label}</Text>
+      <Text style={styles.textoBoton}>{texto}</Text>
     </Pressable>
   )
 }
